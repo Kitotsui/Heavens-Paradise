@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <title>Heaven's Paradise</title>
+  <style>
+    .header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="logo.png">
+        <div id="menu">
+        <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="ficha.html">Ficha</a></li>
+                </ul>
+        </nav>
+    </div>
+  </div>
+
+  <div class="principal">
+            <h2 class="titulo-centralizado">Adentre as profundezas...</h2>
+            
+            <div class="texto">
+                No mundo distópico destruído pela guerra, a vida se tornou uma luta constante pela sobrevivência. A paisagem é desoladora, com ruínas de prédios antigos e estruturas abandonadas espalhadas por toda parte. No entanto, o verdadeiro terror são os monstros que agora vagam pela terra, criaturas grotescas que parecem ter surgido das profundezas do inferno.
+                <p>Para combater essas criaturas, as pessoas se dividiram em três classes distintas de RPG: necromantes, bárbaros e magos. Os necromantes são capazes de invocar e controlar os mortos, usando-os para proteger suas cidades fortificadas. Os bárbaros são guerreiros brutais que usam sua força e habilidades de combate para proteger suas tribos errantes. E os magos são capazes de conjurar poderosas magias para derrotar seus inimigos e proteger suas comunidades.</p>
+            </div>
+
+  <section class="video">
+
+                <h3> BEM VINDOS À SANTUÁRIO</h3>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/vL44VbiSnpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </section>
+
+  
+  <footer>
+            <p class="copyright">Copyright Heaven's Paradise - 2023</p>
+  </footer>
+
+  <script>
+    function adjustHeader() {
+      var header = document.querySelector('.header');
+      if (window.innerWidth <= 768) {
+        header.style.fontSize = '18px';
+      } else {
+        header.style.fontSize = '24px';
+      }
+    }
+
+    window.addEventListener('resize', adjustHeader);
+
+    window.addEventListener('load', adjustHeader);
+  </script>
+</body>
+</html>

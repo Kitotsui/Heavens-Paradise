@@ -1,0 +1,73 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	list-style:none; 
+}
+
+
+footer {
+	background-color: #000000;
+	text-align: center;
+	padding: 40px;
+	color: white;
+}
+
+footer p{
+	font-size: 170%;
+}
+
+
+nav a:hover {
+	color:#C78C19;
+	text-decoration: underline;
+}
+
+nav li{
+	display: inline;
+	position: static;
+
+}
+
+.video h3{
+	text-align: center;
+}
+
+h3::first-letter {
+    font-size: 100px;
+    font-weight: bold;
+    color: brown;
+}
+
+.principal{
+	background-image: url("fundo-index.jpg");
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.principal h2{
+	text-align: center;
+}
+
+h2::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+    color: brown;
+}
+
+h3{
+	font-size: 30px;
+    font-weight: bold;
+    color: brown;
+}
+
+.principal h2{
+	color:rgba(0, 0, 0, 0.4);
+	text-shadow: 2px 2px #FF0000;
+}
+
+.texto{
+	color: #FFFFFF;
+	text-align: center;
+}
